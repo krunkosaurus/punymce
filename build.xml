@@ -7,7 +7,7 @@
 	<path id="tasks.classpath">
 		<pathelement location="."/>
 
-		<fileset dir="tools\ant">
+		<fileset dir="tools/ant">
 			<include name="**/*.jar"/>
 		</fileset>
 	</path>
