@@ -1190,7 +1190,7 @@
 					// Move to caret marker
 					c = ed.dom.get('__caret');
 
-					// Make sure we wrap it compleatly, Opera fails with a simple select call
+					// Make sure we wrap it completely, Opera fails with a simple select call
 					r = ed.getDoc().createRange();
 					r.setStartBefore(c);
 					r.setEndBefore(c);
@@ -1217,7 +1217,7 @@
 						r.moveToElementText(n);
 						r.select();
 					} catch (ex) {
-						// Throws illigal agrument in IE some times
+						// Throws illigal argument in IE some times
 					}
 				} else if (s.addRange) {
 					c ? r.selectNodeContents(n) : r.selectNode(n);
